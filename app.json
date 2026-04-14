@@ -1,15 +1,20 @@
 {
   "expo": {
-    "name": "notes-app",
-    "slug": "notes-app",
+    "name": "NutilApp",
+    "slug": "nutil-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "notesapp",
+    "icon": "./assets/images/nutil.png",
+    "scheme": "nutilapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/images/nutil-dark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020617"
     },
     "android": {
       "adaptiveIcon": {
